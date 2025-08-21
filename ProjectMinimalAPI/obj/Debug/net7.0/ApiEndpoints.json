@@ -1,0 +1,20 @@
+[
+  {
+    "ContainingType": "ProjectMinimalAPI.rotas.PessoaRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPessoaRotas\u003Eb__0_0",
+    "RelativePath": "hello-world",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "\u003C\u003Ef__AnonymousType0\u00601[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
