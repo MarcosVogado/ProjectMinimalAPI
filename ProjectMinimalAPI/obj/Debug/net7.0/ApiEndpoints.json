@@ -16,5 +16,51 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ProjectMinimalAPI.rotas.PessoaRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPessoaRotas\u003Eb__1_2",
+    "RelativePath": "pessoas",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoa",
+        "Type": "ProjectMinimalAPI.Models.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectMinimalAPI.rotas.PessoaRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPessoaRotas\u003Eb__1_1",
+    "RelativePath": "pessoas/{nome}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjectMinimalAPI.Models.Pessoa",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
