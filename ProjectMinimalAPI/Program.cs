@@ -27,6 +27,7 @@ namespace ProjectMinimalAPI
 
             app.UseHttpsRedirection();
 
+            //Chamndo o método MapPessoaRotas para registrar as rotas de Pessoa
             app.MapPessoaRotas();
 
             app.Run();

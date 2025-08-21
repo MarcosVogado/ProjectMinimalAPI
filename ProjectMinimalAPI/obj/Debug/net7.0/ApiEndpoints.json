@@ -1,15 +1,15 @@
 [
   {
     "ContainingType": "ProjectMinimalAPI.rotas.PessoaRotas\u002B\u003C\u003Ec",
-    "Method": "\u003CMapPessoaRotas\u003Eb__0_0",
-    "RelativePath": "hello-world",
+    "Method": "\u003CMapPessoaRotas\u003Eb__1_0",
+    "RelativePath": "pessoas",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "\u003C\u003Ef__AnonymousType0\u00601[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Collections.Generic.List\u00601[[ProjectMinimalAPI.Models.Pessoa, ProjectMinimalAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json"
         ],

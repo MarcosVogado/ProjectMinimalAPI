@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/hello-world": {
+    "/pessoas": {
       "get": {
         "tags": [
           "ProjectMinimalAPI"
@@ -16,7 +16,10 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/String<>f__AnonymousType0"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Pessoa"
+                  }
                 }
               }
             }
@@ -27,9 +30,13 @@
   },
   "components": {
     "schemas": {
-      "String<>f__AnonymousType0": {
+      "Pessoa": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
           "nome": {
             "type": "string",
             "nullable": true
