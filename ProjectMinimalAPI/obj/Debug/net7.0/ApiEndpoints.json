@@ -41,6 +41,33 @@
   },
   {
     "ContainingType": "ProjectMinimalAPI.rotas.PessoaRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPessoaRotas\u003Eb__1_3",
+    "RelativePath": "pessoas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "pessoa",
+        "Type": "ProjectMinimalAPI.Models.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectMinimalAPI.rotas.PessoaRotas\u002B\u003C\u003Ec",
     "Method": "\u003CMapPessoaRotas\u003Eb__1_1",
     "RelativePath": "pessoas/{nome}",
     "HttpMethod": "GET",

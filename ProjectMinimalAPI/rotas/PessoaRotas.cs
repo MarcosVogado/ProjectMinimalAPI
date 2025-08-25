@@ -12,6 +12,7 @@ namespace ProjectMinimalAPI.rotas
             new (Guid.NewGuid(), "Messi"),
             new (Guid.NewGuid(), "Cristiano Ronaldo")
         };
+            
 
         public static void MapPessoaRotas(this WebApplication app)
         {
@@ -25,15 +26,31 @@ namespace ProjectMinimalAPI.rotas
             app.MapGet("/pessoas/{nome}", handler:(string nome) => Pessoas.Find(x => x.Nome == nome));
 
             // Define a rota para adicionar uma nova pessoa
-            app.MapPost("pessoas", (Pessoa pessoa) =>
+            app.MapPost("/pessoas", (Pessoa pessoa) =>
             {
                 if(pessoa.Nome.Length < 1)
                 {
-                    return Results.BadRequest();
+                    // Validação simples para garantir que o nome não está vazio
+                    return Results.BadRequest(new { message = "Erro, digite um nome válido!"});
                 }
-
+                // Adiciona a nova pessoa à lista
                 Pessoas.Add(pessoa);
                 return Results.Ok(pessoa);
+            });
+
+            app.MapPut("/pessoas/{id}", (Guid id, Pessoa pessoa) =>
+            {
+                
+                var encontrado = Pessoas.Find(x => x.Id == id);
+
+                if (encontrado == null)
+                {
+                    return Results.NotFound(new { message = "Pessoa não encontrada!" });
+                }
+
+                encontrado.Nome = pessoa.Nome;
+
+                return Results.Ok(encontrado);
             });
         }
     }

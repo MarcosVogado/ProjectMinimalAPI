@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{1F24AFF1-5208-42CA-B793-EBD6A5A5D820}|ProjectMinimalAPI\\ProjectMinimalAPI.csproj|solutionrelative:projectminimalapi\\rotas\\pessoarotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F24AFF1-5208-42CA-B793-EBD6A5A5D820}|ProjectMinimalAPI\\ProjectMinimalAPI.csproj|c:\\users\\marco\\onedrive\\documents\\api-dotnet-angular\\projectminimalapi\\projectminimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F24AFF1-5208-42CA-B793-EBD6A5A5D820}|ProjectMinimalAPI\\ProjectMinimalAPI.csproj|solutionrelative:projectminimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F24AFF1-5208-42CA-B793-EBD6A5A5D820}|ProjectMinimalAPI\\ProjectMinimalAPI.csproj|c:\\users\\marco\\onedrive\\documents\\api-dotnet-angular\\projectminimalapi\\projectminimalapi\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F24AFF1-5208-42CA-B793-EBD6A5A5D820}|ProjectMinimalAPI\\ProjectMinimalAPI.csproj|solutionrelative:projectminimalapi\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F24AFF1-5208-42CA-B793-EBD6A5A5D820}|ProjectMinimalAPI\\ProjectMinimalAPI.csproj|c:\\users\\marco\\onedrive\\documents\\api-dotnet-angular\\projectminimalapi\\projectminimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F24AFF1-5208-42CA-B793-EBD6A5A5D820}|ProjectMinimalAPI\\ProjectMinimalAPI.csproj|solutionrelative:projectminimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,13 +30,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Pessoa.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\api-dotnet-angular\\ProjectMinimalAPI\\ProjectMinimalAPI\\Models\\Pessoa.cs",
               "RelativeDocumentMoniker": "ProjectMinimalAPI\\Models\\Pessoa.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\api-dotnet-angular\\ProjectMinimalAPI\\ProjectMinimalAPI\\Models\\Pessoa.cs",
               "RelativeToolTip": "ProjectMinimalAPI\\Models\\Pessoa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T15:00:14.124Z",
               "EditorCaption": ""
@@ -49,14 +49,14 @@
               "RelativeDocumentMoniker": "ProjectMinimalAPI\\rotas\\PessoaRotas.cs",
               "ToolTip": "C:\\Users\\marco\\OneDrive\\Documents\\api-dotnet-angular\\ProjectMinimalAPI\\ProjectMinimalAPI\\rotas\\PessoaRotas.cs",
               "RelativeToolTip": "ProjectMinimalAPI\\rotas\\PessoaRotas.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T14:50:36.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marco\\OneDrive\\Documents\\api-dotnet-angular\\ProjectMinimalAPI\\ProjectMinimalAPI\\Program.cs",
               "RelativeDocumentMoniker": "ProjectMinimalAPI\\Program.cs",
